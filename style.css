@@ -473,6 +473,7 @@ section {
 
 /* Navigation */
 .nav-container {
+        justify-content: center; /* Tengahin semua isi nav */
     position: fixed;
     top: 0;
     left: 0;
@@ -480,8 +481,8 @@ section {
     padding: 20px 5%;
     z-index: 1000;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+
 }
 
 .nav-logo {
@@ -492,11 +493,13 @@ section {
 }
 
 .nav-links {
+    justify-content: center; /* Tengahin semua isi nav */
     display: flex;
     gap: 30px;
 }
 
 .nav-link {
+    
     color: var(--text-color);
     text-decoration: none;
     font-weight: 500;
